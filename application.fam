@@ -1,0 +1,28 @@
+App(
+    appid="cardea",
+    name="Cardea",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="cardea_app",
+    # A snapshot is a quarter of a kilobyte and the guard scene passes one by
+    # value on its way to the view model, so the GUI thread gets some room.
+    stack_size=6 * 1024,
+    fap_category="Sub-GHz",
+    fap_icon="icons/cardea_10px.png",
+    fap_icon_assets="icons",
+    fap_author="at0m-b0mb",
+    fap_weburl="https://github.com/at0m-b0mb/Cardea-FlipperZero",
+    fap_version="1.0",
+    # subghz_devices lives in the subghz lib, not in furi_hal, and will not
+    # link without this.
+    fap_libs=["subghz"],
+    # Explicit, so the recursive default does not sweep test/ (host-only code)
+    # into the firmware build.
+    sources=[
+        "cardea.c",
+        "helpers/*.c",
+        "views/*.c",
+        "scenes/*.c",
+    ],
+    fap_description="Relay attack watch for keyless cars. A keyless car asks its key a question over a 125 kHz field that reaches about a metre, and the key answers over UHF loudly enough to cross a car park. The common theft relays only the question - one box at the car, one by your front door - because nobody has to relay the answer: the key's reply reaches the car through the wall on its own. That reply is what Cardea listens for. Leave it in the car, tell it you are walking away, and it hops every key band worldwide, camps on whichever one speaks, and grades what it hears against three independent tests: bursts nobody asked for, gaps too even to be a human thumb, and the same frame arriving over and over. Two of the three must agree before it will say RELAY LIKELY, and one of them must be the rhythm, because pressing your own key six times is unsolicited and identical too. A metronome that has been ticking for a minute is a weather station and stops counting. Teach it your own key and every other remote in the street stops counting as well. It cannot hear the 125 kHz half and says so, it cannot decrypt your key's reply and says so, and it never claims certainty it has not earned. Receive only - it never transmits.",
+    requires=["gui"],
+)

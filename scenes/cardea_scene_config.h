@@ -1,0 +1,7 @@
+ADD_SCENE(cardea, start, Start)
+ADD_SCENE(cardea, guard, Guard)
+ADD_SCENE(cardea, learn, Learn)
+ADD_SCENE(cardea, report, Report)
+ADD_SCENE(cardea, primer, Primer)
+ADD_SCENE(cardea, settings, Settings)
+ADD_SCENE(cardea, about, About)
